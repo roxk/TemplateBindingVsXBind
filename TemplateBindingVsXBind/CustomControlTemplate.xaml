@@ -1,0 +1,43 @@
+﻿<ResourceDictionary
+    x:Class="TemplateBindingVsXBind.CustomControlTemplate"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TemplateBindingVsXBind"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Style TargetType="local:CustomControl">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="local:CustomControl">
+                    <StackPanel Orientation="Horizontal">
+                        <Button Content="{x:Bind Content, Mode=OneWay}" Padding="{x:Bind Padding, Mode=OneWay}" Margin="{x:Bind Margin, Mode=OneWay}"/>
+                        <Button Content="{x:Bind Content, Mode=OneWay}" Padding="{x:Bind Padding, Mode=OneWay}" Margin="{x:Bind Margin, Mode=OneWay}"/>
+                        <Button Content="{x:Bind Content, Mode=OneWay}" Padding="{x:Bind Padding, Mode=OneWay}" Margin="{x:Bind Margin, Mode=OneWay}"/>
+                        <Button Content="{x:Bind Content, Mode=OneWay}" Padding="{x:Bind Padding, Mode=OneWay}" Margin="{x:Bind Margin, Mode=OneWay}"/>
+                        <Button Content="{x:Bind Content, Mode=OneWay}" Padding="{x:Bind Padding, Mode=OneWay}" Margin="{x:Bind Margin, Mode=OneWay}"/>
+                        <Button Content="{x:Bind Content, Mode=OneWay}" Padding="{x:Bind Padding, Mode=OneWay}" Margin="{x:Bind Margin, Mode=OneWay}"/>
+                        <Button Content="{x:Bind Content, Mode=OneWay}" Padding="{x:Bind Padding, Mode=OneWay}" Margin="{x:Bind Margin, Mode=OneWay}"/>
+                        <Button Content="{x:Bind Content, Mode=OneWay}" Padding="{x:Bind Padding, Mode=OneWay}" Margin="{x:Bind Margin, Mode=OneWay}"/>
+                        <Button Content="{x:Bind Content, Mode=OneWay}" Padding="{x:Bind Padding, Mode=OneWay}" Margin="{x:Bind Margin, Mode=OneWay}"/>
+                        <Button Content="{x:Bind Content, Mode=OneWay}" Padding="{x:Bind Padding, Mode=OneWay}" Margin="{x:Bind Margin, Mode=OneWay}"/>
+                    </StackPanel>
+                </ControlTemplate>
+                <!--<ControlTemplate TargetType="local:CustomControl">
+                    <StackPanel Orientation="Horizontal">
+                        <Button Content="{TemplateBinding Content}" Padding="{TemplateBinding Padding}" Margin="{TemplateBinding Margin}"/>
+                        <Button Content="{TemplateBinding Content}" Padding="{TemplateBinding Padding}" Margin="{TemplateBinding Margin}"/>
+                        <Button Content="{TemplateBinding Content}" Padding="{TemplateBinding Padding}" Margin="{TemplateBinding Margin}"/>
+                        <Button Content="{TemplateBinding Content}" Padding="{TemplateBinding Padding}" Margin="{TemplateBinding Margin}"/>
+                        <Button Content="{TemplateBinding Content}" Padding="{TemplateBinding Padding}" Margin="{TemplateBinding Margin}"/>
+                        <Button Content="{TemplateBinding Content}" Padding="{TemplateBinding Padding}" Margin="{TemplateBinding Margin}"/>
+                        <Button Content="{TemplateBinding Content}" Padding="{TemplateBinding Padding}" Margin="{TemplateBinding Margin}"/>
+                        <Button Content="{TemplateBinding Content}" Padding="{TemplateBinding Padding}" Margin="{TemplateBinding Margin}"/>
+                        <Button Content="{TemplateBinding Content}" Padding="{TemplateBinding Padding}" Margin="{TemplateBinding Margin}"/>
+                        <Button Content="{TemplateBinding Content}" Padding="{TemplateBinding Padding}" Margin="{TemplateBinding Margin}"/>
+                    </StackPanel>
+                </ControlTemplate>-->
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

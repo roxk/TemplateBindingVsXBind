@@ -1,0 +1,8 @@
+namespace TemplateBindingVsXBind
+{
+    [default_interface]
+    runtimeclass CustomControlTemplate : Windows.UI.Xaml.ResourceDictionary
+    {
+        CustomControlTemplate();
+    }
+}

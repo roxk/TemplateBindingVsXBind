@@ -1,0 +1,10 @@
+namespace TemplateBindingVsXBind
+{
+    [default_interface]
+    runtimeclass MainPage : Windows.UI.Xaml.Controls.Page, Windows.UI.Xaml.Data.INotifyPropertyChanged
+    {
+        MainPage();
+        String Text{ get; };
+        String Time{ get; };
+    }
+}

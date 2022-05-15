@@ -1,0 +1,8 @@
+namespace TemplateBindingVsXBind
+{
+    [default_interface]
+    runtimeclass CustomControl : Windows.UI.Xaml.Controls.ContentControl
+    {
+        CustomControl();
+    }
+}
